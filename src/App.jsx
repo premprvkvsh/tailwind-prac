@@ -3,10 +3,10 @@ import { RevenueCard } from './components/RevenueCard'; // Adjust the path accor
 
 function App() {
   return (
-    <div className="App">
-      <h1>Revenue Dashboard</h1>
+    <div className='grid grid-cols-4'>
+     
       <RevenueCard 
-        title="Total Revenue" 
+        title="Amount pending" 
         orderCount={23} 
         amount={2312.23} 
       />

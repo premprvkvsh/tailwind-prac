@@ -10,11 +10,11 @@ function App() {
         orderCount={23} 
         amount={2312.23} 
       />
-      {/* <RevenueCard 
+      <RevenueCard 
         title="Pending Orders" 
         orderCount={13} 
         amount={92312.20} 
-      /> */}
+      />
     </div>
   );
 }
